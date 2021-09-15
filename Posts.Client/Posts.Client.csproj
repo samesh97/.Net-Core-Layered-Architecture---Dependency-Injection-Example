@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JokePosts.Data\Posts.Data.csproj" />
+    <ProjectReference Include="..\JokePosts.Service\Posts.Service.csproj" />
+    <ProjectReference Include="..\JokePosts.Shared\Posts.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
